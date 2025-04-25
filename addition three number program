@@ -1,0 +1,17 @@
+
+class Addition {
+    public int addThreeNumbers(int num1, int num2, int num3) {
+        return num1 + num2 + num3;
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Addition addition = new Addition();
+        int number1 = 5;
+        int number2 = 10;
+        int number3 = 15;
+        int result = addition.addThreeNumbers(number1, number2, number3);
+        System.out.println("The sum of " + number1 + ", " + number2 + ", and " + number3 + " is: " + result);
+    }
+}
+
